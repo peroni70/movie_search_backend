@@ -16,4 +16,4 @@ COPY . /app
 
 ENTRYPOINT [ "python" ]
 
-CMD [ "hello.py" ]
+CMD [ "movie_search.py" ]
