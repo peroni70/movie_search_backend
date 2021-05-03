@@ -8,6 +8,8 @@ COPY ./requirements.txt /app/requirements.txt
 
 WORKDIR /app
 
+RUN python -m venv search-env
+RUN source search-env/bin/activate
 RUN pip install --upgrade pip
 
 RUN pip install -r requirements.txt
