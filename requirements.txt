@@ -3,4 +3,5 @@ sentence-transformers==1.1.0
 faiss-cpu==1.7.0
 flask_sqlalchemy
 flask_cors
+sklearn
 SQLAlchemy-serializer
