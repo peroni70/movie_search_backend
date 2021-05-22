@@ -1,0 +1,6 @@
+bs4
+pandas
+numpy
+pandas
+sklearn
+bokeh
